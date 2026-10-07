@@ -1,8 +1,8 @@
 # WispReach
 
-Adjust wisplight mist clearance, or hide all Mistlands mist without a wisplight, using BepInEx Configuration Manager.
+Adjust wisplight mist clearance, or hide all Mistlands mist without a wisplight.
 
-WispReach smoothly fades the game's native mist clouds. Their material, textures, lighting and shader are retained. No paid assets or shader bundle are required. Install on the client.
+WispReach smoothly fades the game's native mist clouds.
 
 ## Settings
 
