@@ -35,23 +35,3 @@ The dependencies are BepInExPack_Valheim and shudnal's ConfigurationManager. Thi
 ## Validation
 
 The release is checked against the installed Valheim assemblies. Local checks cover integer radius constraints, legacy fractional config migration, both switches, persistence and particle alpha restoration. Earlier Unity integration checks covered global hiding without a wisplight, distant/new clouds, renderer restoration and unchanged weather/material state. In-game visual confirmation remains separate from these checks.
-
-## Changes in 1.0.0
-
-- First release of WispReach.
-- Two whole-meter sliders control the clear radius and gradual mist transition.
-- A separate checkbox hides all Mistlands particle mist, even without a wisplight.
-- Saved settings are retained; older fractional radii migrate to whole meters.
-
-See `CHANGELOG.md` for the development version history.
-
-## Changes in 0.1.3
-
-- Both radius sliders now use whole meters and display without decimal places.
-- Existing fractional radius values migrate to integers while preserving saved switches and radius constraints.
-
-## Changes in 0.1.2
-
-- Added a separate checkbox to hide all Mistlands particle mist without a wisplight.
-- Restores native rendering when global hiding or the mod is disabled.
-- Kept both finite radius sliders, the Enabled checkbox and native 15/15 defaults.
