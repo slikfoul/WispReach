@@ -25,12 +25,12 @@ Changes apply without restarting the game. Existing saved settings are preserved
 
 1. Select Valheim and your profile in Thunderstore Mod Manager.
 2. Open **Settings → Profile → Import local mod**.
-3. Select `Slikfoul-WispReach-1.0.0.zip`. Confirm author **Slikfoul**, name **WispReach**, version **1.0.0**, then import.
+3. Select `Slikfoul-WispReach-1.0.3.zip`. Confirm author **Slikfoul**, name **WispReach**, version **1.0.3**, then import.
 4. Start the game using **Start modded** and open WispReach in Configuration Manager. Equip a wisplight for radius control, or enable **General / Remove all Mistlands mist** without one.
 
 If a DLL was previously installed by hand in `BepInEx/plugins/WispReach`, back up and remove that old manual copy before importing into the same profile. Keep `BepInEx/config/Slikfoul.WispReach.cfg` to preserve settings. Load one WispReach DLL per profile.
 
-The dependencies are BepInExPack_Valheim and shudnal's ConfigurationManager. This ZIP does not include either dependency, game assemblies or user configuration. Ensure the declared dependencies are installed when using an offline import.
+The only required dependency is BepInExPack_Valheim. This ZIP does not include BepInEx, game assemblies or user configuration.
 
 ## Validation
 

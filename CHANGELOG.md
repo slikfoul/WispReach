@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.3
+
+- Removed ConfigurationManager from required dependencies.
+
+## 1.0.2
+
+- Shortened the mod description in README.
+
+## 1.0.1
+
+- Removed release history from README; changes are listed only in CHANGELOG.
+- Documentation-only update; mod behavior is unchanged.
+
 ## 1.0.0
 
 - First release of WispReach.
