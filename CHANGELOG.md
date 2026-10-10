@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0
+
+- Added a whole-percent mist density slider, including control without a wisplight.
+- Added optional linking of wisplight radii to preserve the transition width.
+- Added separate clear and transition radii for stationary wisp torches, with smooth restoration and overlapping zones.
+- Set default torch radii to 24/24 m to match the native clearance radius.
+- Added half-second fades when switching modes, changing settings and equipping or removing a wisplight.
+- Added bounded automatic recovery after rendering errors, with new attempts after re-enabling or loading a new scene.
+- Synchronized DLL, plugin and package versions.
+
 ## 1.0.3
 
 - Removed ConfigurationManager from required dependencies.
@@ -20,14 +30,3 @@
 - Added a separate checkbox to hide all Mistlands particle mist without a wisplight.
 - Preserved native mist materials, weather fog, stationary torches and other players' wisplights.
 - Retained saved settings and migration of fractional radii to whole meters.
-
-## 0.1.3
-
-- Changed both radius sliders to whole-meter values without decimal places.
-- Rounded existing fractional settings while preserving switches and radius constraints.
-
-## 0.1.2
-
-- Added an independent checkbox to hide all Mistlands particle mist without a wisplight.
-- Restored native rendering when global hiding or the mod is disabled.
-- Kept finite R1/R2 sliders, the Enabled checkbox and native 15/15 defaults.

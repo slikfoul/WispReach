@@ -1,8 +1,8 @@
 {
   "name": "WispReach",
-  "version_number": "1.0.3",
+  "version_number": "1.1.0",
   "website_url": "https://github.com/slikfoul/WispReach",
-  "description": "Control wisplight mist clearance with two whole-meter radius sliders. Smoothly fade native clouds, or hide all Mistlands particle mist even without a wisplight. Client-side only.",
+  "description": "Adjust wisplight and wisp-torch mist clearance, link the radius sliders and control mist density. Smoothly switch visibility modes, or hide all Mistlands mist.",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2351"
   ]
