@@ -6,9 +6,7 @@
 - Added optional linking of wisplight radii to preserve the transition width.
 - Added separate clear and transition radii for stationary wisp torches, with smooth restoration and overlapping zones.
 - Set default torch radii to 24/24 m to match the native clearance radius.
-- Added half-second fades when switching modes, changing settings and equipping or removing a wisplight.
-- Added bounded automatic recovery after rendering errors, with new attempts after re-enabling or loading a new scene.
-- Synchronized DLL, plugin and package versions.
+- Added half-second fades when switching modes and changing settings.
 
 ## 1.0.3
 

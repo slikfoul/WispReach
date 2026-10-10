@@ -27,13 +27,3 @@ Torch settings work without an equipped wisplight. Overlapping torch and wisplig
 The default torch radii are 24/24 m, matching the native 24 m clearance radius with no added transition band. Existing saved values are preserved; resetting the torch sliders applies these defaults.
 
 Ordinary weather fog and light brightness/range are unchanged. R3 affects shared Mistlands mist, including clouds near other wisplights and torches.
-
-After a rendering error, WispReach attempts to restore ordinary mist and retries up to three times, five seconds apart. If the problem persists, re-enable the mod or load a new scene to try again.
-
-## Installation
-
-Install through Thunderstore Mod Manager, or import `Slikfoul-WispReach-1.1.0.zip` using **Settings → Profile → Import local mod**. Start the game using **Start modded**.
-
-Keep one WispReach DLL per profile. Remove an older manual copy before importing the package, and retain `BepInEx/config/Slikfoul.WispReach.cfg` to preserve settings.
-
-The required dependency is BepInExPack_Valheim.
